@@ -59,6 +59,95 @@ background:black;
 padding:20px;
 margin-top:30px;
 }
+.info-card{
+    width:94%;
+    max-width:900px;
+    margin:35px auto;
+    padding:35px 20px;
+    background:#181818;
+    border:2px solid #8b0000;
+    border-radius:25px;
+    box-shadow:0 0 30px rgba(255,0,0,.25);
+}
+
+.info-card h2{
+    color:#FFD54A;
+    font-size:42px;
+    font-weight:900;
+    text-align:center;
+    margin:0 0 35px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    text-shadow:0 0 18px rgba(255,215,0,.45);
+}
+
+.info-row{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    margin:20px 0;
+    font-size:27px;
+    color:#fff;
+    line-height:1.5;
+}
+
+.info-icon{
+    width:42px;
+    font-size:30px;
+    text-align:center;
+}
+
+.contact-value{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+    margin:18px 0 30px;
+}
+
+.action-btn{
+    display:block;
+    width:90%;
+    max-width:520px;
+    margin:18px auto;
+    padding:18px;
+    border-radius:18px;
+    text-decoration:none;
+    text-align:center;
+    font-size:26px;
+    font-weight:bold;
+    color:white;
+    background:linear-gradient(180deg,#ff3b2f,#d5160f);
+    box-shadow:0 0 25px rgba(255,0,0,.4);
+}
+
+.action-btn:hover{
+    background:#ff4433;
+}
+
+@media(max-width:600px){
+
+.info-card{
+    width:95%;
+    padding:28px 15px;
+}
+
+.info-card h2{
+    font-size:32px;
+}
+
+.info-row{
+    font-size:22px;
+}
+
+.contact-value{
+    font-size:25px;
+}
+
+.action-btn{
+    font-size:22px;
+}
+}
 </style>
 
 </head>
